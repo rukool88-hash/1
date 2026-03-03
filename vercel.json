@@ -1,5 +1,12 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "https://4cgqpvtjambndbwg4zywker3a-buy-0.loopin.cloud/" }
+    {
+      "source": "/lab",
+      "destination": "https://4cgqpvtjambndbwg4zywker3a-buy-0.loopin.cloud/lab"
+    },
+    {
+      "source": "/lab/(.*)",
+      "destination": "https://4cgqpvtjambndbwg4zywker3a-buy-0.loopin.cloud/lab/$1"
+    }
   ]
 }
