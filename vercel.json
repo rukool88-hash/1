@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "https://4cgqpvtjambndbwg4zywker3a-buy-0.loopin.cloud/?token=pAr7y4K9LW9YIeiB6VWC9b24K1QZMg0w" }
+    { "source": "/(.*)", "destination": "https://4cgqpvtjambndbwg4zywker3a-buy-0.loopin.cloud/" }
   ]
 }
