@@ -1,12 +1,14 @@
 {
-  "rewrites": [
+  "redirects": [
     {
-      "source": "/lab",
-      "destination": "https://4cgqpvtjambndbwg4zywker3a-buy-0.loopin.cloud/lab"
+      "source": "/",
+      "destination": "https://4cgqpvtjambndbwg4zywker3a-buy-0.loopin.cloud/lab",
+      "permanent": false
     },
     {
-      "source": "/lab/(.*)",
-      "destination": "https://4cgqpvtjambndbwg4zywker3a-buy-0.loopin.cloud/lab/$1"
+      "source": "/lab",
+      "destination": "https://4cgqpvtjambndbwg4zywker3a-buy-0.loopin.cloud/lab",
+      "permanent": false
     }
   ]
 }
